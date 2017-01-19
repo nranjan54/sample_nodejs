@@ -15,6 +15,7 @@ build:
  #   - echo $test
 #    - npm test
      - echo "yoyyo"
+     - echo "you there"
 
 integrations:     
   notifications:
