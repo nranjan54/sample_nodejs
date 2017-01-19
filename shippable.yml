@@ -12,21 +12,24 @@ node_js:
 build:
   ci:
  #   - npm install
- #   - echo $test
+     - echo $test
 #    - npm test
      - echo "yoyo"
      - echo "you there"
      -  node --version
+     - echo "yoyyo"
+     - node --version
+     - echo "hey" 
 
 integrations:     
   notifications:
     - integrationName: slack
       type: slack
       recipients:
+    #    - "#niraj93"
         - "#deepika-test" 
     #  on_start: never
-      on_success: change
-      on_failure: change
-      #on_pull_request: never
-
+    #  on_success: change
+    #  on_failure: change
+    #  on_pull_request: change
 
