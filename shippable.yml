@@ -14,8 +14,9 @@ build:
  #   - npm install
  #   - echo $test
 #    - npm test
-     - echo "yoyyo"
+     - echo "yoyo"
      - echo "you there"
+     -  node --version
 
 integrations:     
   notifications:
